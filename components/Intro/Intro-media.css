@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    .swiper__title {
+        padding-right: 20%;
+    }   
+}
+
+@media (max-width: 768px) {
+    .swiper__title {
+        padding-right: 0;
+    }
+    .swiper__desc {
+        padding-right: 15%;
+    }
+}
+@media (max-width: 576px) {
+    .swiper__desc {
+        padding-right: 0;
+    }
+    .swiper-slide {
+        text-align: center;
+        align-items: center;
+    }
+}

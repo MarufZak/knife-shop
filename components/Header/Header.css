@@ -1,0 +1,38 @@
+.header {
+    padding: clamp(10px,calc(20vw/14.4),30px) 0;
+    background: var(--color-dark);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.header__link {
+    text-transform: uppercase;
+    font-size: var(--font-20);
+    line-height: var(--line-24);
+    color: var(--color-white);
+    font-family: var(--font-medium);
+}
+
+.header__logo {
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+    justify-self: center;
+}
+
+.header__btn {
+    width: 20px;
+    height: 25px;
+    object-fit: contain;
+    justify-self: end;
+    cursor: pointer;
+}

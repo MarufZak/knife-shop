@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+    .header__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .header__link {
+        display: none;
+    }
+    .header__logo {
+        justify-self: start;
+    }
+}

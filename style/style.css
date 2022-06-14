@@ -1,0 +1,62 @@
+@import './fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-body);
+}
+
+:root {
+    --color-white: #fff;
+    --color-red: #C80000;
+    --color-dark: rgba(33, 33, 33, 0.8);
+    --color-body: #373737;
+    --color-card: rgba(39, 39, 39, 1);
+
+    --opacity-low: 0.4;
+    --opacity-medium: 0.7;
+
+    --font-medium: "M-M";
+    --font-regular: "M-R";
+    --font-bold: "M-B";
+
+    --font-20: clamp(14px,calc(20vw/14.4),24px);
+    --font-40: clamp(24px,calc(40vw/14.4),56px);
+
+    --line-24: clamp(18px,calc(24vw/14.4),28px);
+    --line-48: clamp(32px,calc(48vw/14.4),56px);
+
+    --margin-25: clamp(10px,calc(25vw/14.4),40px);
+    --margin-40: clamp(20px,calc(40vw/14.4),60px);
+
+    --media-sm: 576px;
+    --media-md: 768px;
+    --media-lg: 992px;
+    --media-xlg: 1200px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+

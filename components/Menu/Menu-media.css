@@ -1,0 +1,15 @@
+@media (max-width: 1200px) {
+    .menu {
+        width: 50vw;
+    }
+}
+@media (max-width: 768px) {
+    .menu {
+        width: 80vw;
+    }
+}
+@media (max-width: 576px) {
+    .menu {
+        width: 100vw;
+    }
+}
